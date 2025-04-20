@@ -9,10 +9,10 @@ let isSunk = false ;
 
 // game logic
 while (!isSunk) {
-    guess = prompt("Din aton bombahan halin 0 to 6?");
+    guess = prompt("Choose a number 0 - 6.");
 
     if (guess == null) {
-        alert("Thanks for playing!!");
+        alert("Game Over.");
         break;
     }
 
